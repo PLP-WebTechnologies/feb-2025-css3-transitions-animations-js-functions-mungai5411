@@ -1,0 +1,9 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#animatedElement {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
